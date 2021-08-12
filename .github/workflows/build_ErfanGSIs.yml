@@ -33,6 +33,7 @@ jobs:
        
        - name: Clone ErfanGSI Source Code
          run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git ErfanGSIs
+              cd ErfanGSIs
          
        - name: Fix exit
          run: |
