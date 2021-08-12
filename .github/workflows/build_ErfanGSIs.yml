@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://www.coolapk.com/link?url=https%3A%2F%2Fdownload.meizu.com%2FFirmware%2FFlyme%2F16s%2F9.21.8.10%2Fcn_beta%2F20210810002011%2Fde243672%2Fupdate.zip
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16s/8.1.5.0/cn/20210407151954/038651d0/update.zip
   ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
