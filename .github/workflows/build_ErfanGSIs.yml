@@ -45,6 +45,8 @@ jobs:
               mkdir ./output
               wget https://raw.githubusercontent.com/TimeMapleLing/actions_build_SGSI/main/bin/setup.sh -o setup-xiaoxin.sh
               sudo bash setup-xiaoxin.sh
+              sudo sed -i '7c AB=false' url2GSI.sh
+              sudo sed -i '7c A=ture' url2GSI.sh
        
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh -c -b $ROM_URL $ROM_NAME
